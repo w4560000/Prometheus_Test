@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prometheus_Test", "Prometheus_Test\Prometheus_Test.csproj", "{F159F36C-ADD1-459F-8B83-3097A1924D15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Garfana", "Garfana", "{2CAF5C06-A327-462E-9DB3-25A2E6CE9704}"
+	ProjectSection(SolutionItems) = preProject
+		Garfana\NET_runtime_metrics_dashboard.json = Garfana\NET_runtime_metrics_dashboard.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F159F36C-ADD1-459F-8B83-3097A1924D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F159F36C-ADD1-459F-8B83-3097A1924D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F159F36C-ADD1-459F-8B83-3097A1924D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F159F36C-ADD1-459F-8B83-3097A1924D15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7693A019-B2CF-4006-B5F6-07F54FF99872}
+	EndGlobalSection
+EndGlobal
